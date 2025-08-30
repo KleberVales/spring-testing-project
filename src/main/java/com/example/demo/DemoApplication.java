@@ -1,11 +1,11 @@
-package com.example.springtestingproject
+package com.example.demo
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class SpringTestingProjectApplication
+class DemoApplication
 
 fun main(args: Array<String>) {
-    runApplication<SpringTestingProjectApplication>(*args)
+    runApplication<DemoApplication>(*args)
 }
